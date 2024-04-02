@@ -10,7 +10,9 @@
 <body>
     <header>
         <section id="en-tete">
-            <img id="profil" src="./assets/Images/FB_IMG_1711633424579.jpg" alt="Photo d'un homme debout avec un t-shirt blanc et un short kaki, face à la mer">
+            <a href="./assets/Images/FB_IMG_1711633424579.jpg" title="Photo de profil" target="_blank">
+                <img id="profil" src="./assets/Images/FB_IMG_1711633424579.jpg" alt="Photo d'un homme debout avec un t-shirt blanc et un short kaki, face à la mer">
+            </a>
             <h1>ANTOINE PAPIN</h1>
             <h2>Développeur Web junior</h2>
         </section>
@@ -25,7 +27,7 @@
     <main>
         <section id="block1">
             <h3>A propos</h3>
-            <p>D'une nature sociable et rigoureuse, 
+            <p id="sous-block">D'une nature sociable et rigoureuse, 
                 je suis extrêmement motivé pour développer 
                 constamment mes compétences et évoluer professionnellement.  </p>
             
@@ -72,7 +74,9 @@
 
 
             <h3>Diplôme/Formations</h3>
+
             <h4>Diplome/formation 1</h4>
+
             <p>Du XXXX au XXXX</p>
             <p>Nom de l'école</p>
 
@@ -90,12 +94,22 @@
 
     </main>
     <Footer>
-        <img src="./assets/Icones/linkedin.png" alt="Logo du site internet linkedin">
-        <img src="./assets/Icones/twitter.png" alt="Logo du réseau social X">
-        <img src="./assets/Icones/github.png" alt="Logo du gestionnaire de version Github">
-        <p>
-            <small>Dernier mise à jour le <time datetime="2024-03-27">27/03/2024</time></small> 
-        </p>
+        <section class="items">
+            <a href="https://fr.linkedin.com/" title="linkedin" target="_blank">
+                <img class="items__linkedin" src="./assets/Icones/linkedin.png" alt="Logo du site internet linkedin">
+            </a>
+            <a href="https://twitter.com/" title="twitter" target="_blank">
+                <img class="items__twitter" src="./assets/Icones/twitter.png" alt="Logo du réseau social X">
+            </a>
+            <a href="https://github.com/Papinte" title="github" target="_blank">
+                <img class="items__github" src="./assets/Icones/github.png" alt="Logo du gestionnaire de version Github">
+            </a>
+        </section>
+        <section id="update">
+            <p>
+                <small>Dernier mise à jour le <time datetime="2024-03-27">27/03/2024</time></small> 
+            </p>
+        </section>
     </Footer>
 </body>
 </html>

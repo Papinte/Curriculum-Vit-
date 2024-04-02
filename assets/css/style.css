@@ -9,6 +9,16 @@
     url('../fonts/Raleway-Italic.ttf') format('truetype'),
     url('../fonts/Raleway-Bold.ttf') format('truetype') ;
 }
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background-color: white;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #782221;
+}
+
 h1{
     font-family: "Lato";
 }
@@ -20,12 +30,14 @@ h3{
     color: black;
     border-left: 5px solid #782221  ;
     background-color:#dbc2a4 ;
+    padding-left: 5px;
 }
 h4{
     font-family: "Lato";
 }
 ul li{
     font-family: "Raleway";
+    font-size: 1em;
 }
 
 
@@ -41,6 +53,7 @@ main{
     display: flex;
     flex-direction: row;
     margin: auto;
+    border-right: 1px solid #2c1d27;
 }
 #en-tete{
     padding: 2rem;
@@ -61,25 +74,31 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
 #profil{
     width: 150px;
     border: 0;
     border-radius: 50%;
     box-shadow: 0px 0px 10px 0px white;
 }
-
-img{
-    width: 25px;
+#profil:hover{
+    cursor: zoom-in;
 }
+
 #block1{
     background-color: #782221;
     width: 300px;
     color: white;
     text-align: justify;
     padding: 0 50px 0 15px;
+
 }
-p{
+#sous-block{
     font-family: "Raleway";
+    font-size: 1em;
     text-indent: 2rem;
 }
 
@@ -92,8 +111,41 @@ footer{
     width: 1160px;
     background-color: #782221;
     margin: auto;
+}
+
+.items{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap:wrap ;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 25px 475px 0 475px;
+}
+.items__linkedin:hover{
+    opacity: 0.5;
+}
+.items__linkedin{
+    width: 50px;
+}
+.items__twitter:hover{
+    opacity: 0.5;
+}
+.items__twitter{
+    width: 50px;
+}
+.items__github:hover{
+    opacity: 0.5;
+}
+.items__github{
+    width: 50px;
+}
+
+#update{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+p{
+    font-family: "Raleway";
+    font-size: 1em;
 }
