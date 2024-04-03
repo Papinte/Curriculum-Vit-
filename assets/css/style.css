@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face{
+    font-family: "Raleway";
+    src: url('../fonts/Raleway-Regular.woff');
+    src: url('../fonts/Raleway-Italic.woff');
+    src: url('../fonts/Raleway-Bold.woff');
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype'),
+    url('../fonts/Raleway-Italic.ttf') format('truetype'),
+    url('../fonts/Raleway-Bold.ttf') format('truetype') ;
+}
+
+h1{
+    font-family: "Lato";
+}
+h2{
+    font-family: "Lato";
+}
+h3{
+    font-family: "Lato";
+    color: black;
+    border-left: 5px solid #782221  ;
+    background-color:#dbc2a4 ;
+    padding-left: 5px;
+
+}
+h4{
+    font-family: "Lato";
+}
+
+li{
+    font-family: "Raleway";
+    font-size: 1em;
+}
+
+header{
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+main{
+    width: 1160px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border-right: 1px solid #2c1d27;
+}
+#en-tete{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #782221;
+    color: white;
+}
+#contact{
+    background-color: #2c1d27;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+#profil{
+    width: 150px;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px white;
+}
+#profil:hover{
+    cursor: zoom-in;
+}
+
+#block1{
+    background-color: #782221;
+    margin-left: 1px;
+    width: 300px;
+    color: white;
+    text-align: justify;
+    padding: 0 50px 0 15px;
+
+}
+#sous-block{
+    font-family: "Raleway";
+    font-size: 1em;
+    text-indent: 2rem;
+}
+
+#block2{
+    margin-left: 50px;
+    width: 1160px;
+}
+
+footer{
+    width: 1160px;
+    background-color: #782221;
+    margin: auto;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 25px 475px 0 475px;
+}
+.items__linkedin:hover{
+    opacity: 0.7;
+}
+.items__linkedin{
+    width: 50px;
+}
+.items__twitter:hover{
+    opacity: 0.7;
+}
+.items__twitter{
+    width: 50px;
+}
+.items__github:hover{
+    opacity: 0.7;
+}
+.items__github{
+    width: 50px;
+}
+
+#update{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+p{
+    font-family: "Raleway";
+    font-size: 1em;
+}
